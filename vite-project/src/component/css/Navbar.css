@@ -14,6 +14,13 @@
     text-decoration: none;
     padding-left: 20px;
     font-family: Arial, sans-serif;
+    align-items: center;
+}
+.left svg{
+color: #faf2f2;
+height: 30px;
+padding-left: 20px;
+
 }
 .container{
     background-color: #2c2828;
