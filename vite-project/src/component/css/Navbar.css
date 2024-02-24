@@ -1,0 +1,14 @@
+.menu{
+    display: flex;
+    background: #000;
+    height: 20px;
+    width: 100%;
+    border-radius: 2px;
+    border: solid;
+
+
+}
+.a{
+    text-decoration: none;
+
+}
