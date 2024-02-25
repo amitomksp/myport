@@ -1,10 +1,19 @@
+import React from 'react';
 import "./css/Home.css"
+import profile from "../images/profile_pic.jpg";
 function Home(){
-    (    <div className="container">
-        <div className="left">
+   return (    <div className="homecontainer">
+        <div className="homeleft">
+            <div className="profile-circle">
+            <img src={profile}  alt="" />
+            <div className="name">Amit</div>
+            
+            </div>
+           
+          
            
         </div>
-        <div className="right">
+        <div className="homeright">
 
         </div>
         </div>
