@@ -2,7 +2,7 @@ import React from 'react';
 import "./css/Home.css"
 import profile from "../images/profile_pic.jpg";
 function Home(){
-   return (    <div className="homecontainer">
+   return (    <div className="homecontainer background-image">
         <div className="homeleft">
             <div className="profile-circle">
             <img src={profile}  alt="" />
@@ -15,7 +15,7 @@ function Home(){
           
            
         </div>
-        <div className="homeright">
+        <div className="homeright ">
             <h2>Hello!</h2>
             <a>I'm Amit kumar, a software developer and engineer who likes making projects from scratch and learning new technologies. I'm a electronics and communication engineering student pursuing B. Tech. from NIT Arunachal Pradesh. I like pop music, coding, sketching and shooting photos. Sometimes I write technical blogs.
 

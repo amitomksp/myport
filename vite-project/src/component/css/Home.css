@@ -41,3 +41,11 @@
         padding: 20px;
         color: #c5c4ca;
     }
+
+.background-image {
+    background-image: url('../Background 12.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
