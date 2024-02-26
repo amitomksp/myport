@@ -9,8 +9,7 @@ function App() {
   return (
     <>
        <Navbar></Navbar>
-       <Home></Home>
-       <Skills></Skills>
+       
     </>
   )
 }

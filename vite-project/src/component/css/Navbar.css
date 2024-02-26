@@ -1,34 +1,37 @@
+.container{
+    position: sticky;
+    top: 0;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px; 
+}
+
+.right{
+    background-color: antiquewhite;
+}
+
 .right .menu{
     display: flex;
     list-style: none;
 }
+
 .right a{
-    color: #faf2f2;
  text-decoration: none;
  padding-left: 20px;
  padding-right: 15px;
  
 }
 .left a{
-    color: #faf2f2;
     text-decoration: none;
     padding-left: 20px;
     align-items: center;
 }
 .left svg{
-color: #faf2f2;
 height: 30px;
 padding-left: 20px;
 
-}
-.container{
-    position: sticky;
-    top: 0;
-    background-color: #061223;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: -8px; 
 }
 .contact-btn{
     font-size: 0.9rem;padding: 0.6rem,2rem;
@@ -40,9 +43,11 @@ padding-left: 20px;
     cursor: pointer;
     transition: all 0.3 ease;
 }
+
 .contact-btn :hover{
     color:#a993fe ;
     background: #000;
     outline: 1.5px solid #a993fe;
    
 }
+
