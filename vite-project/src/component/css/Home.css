@@ -8,13 +8,13 @@
     
     height: 100vh;
     width: 350px;
-    background-color: antiquewhite;
     justify-content: centre;
-    
+    margin-top: 100px;
+    margin-right: 100px;
     }
     .profile-circle {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%; /* Makes the container circular */
         overflow: hidden; /* Hides overflow content outside of the circle */
         margin-left: 15%;
@@ -43,9 +43,10 @@
     }
 
 .background-image {
-    background-image: url('../Background 12.jpg');
+    background-image: url('../Background 8.jpg');
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
+    z-index: 100;
 }
