@@ -1,5 +1,5 @@
 .SkillsContainer{
-    margin-top: 100px;
+    
     color: white;
     display: flex;
     justify-content: space-between;
@@ -38,5 +38,8 @@
 .realskill{
    margin-top: 5px;
    margin-left: -9px;
+}
+#skills{
+    background-image: url('../Background 8.jpg');
 }
 
