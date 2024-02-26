@@ -10,6 +10,7 @@ function App() {
     <>
        <Navbar></Navbar>
        <Home></Home>
+       <Skills></Skills>
     </>
   )
 }

@@ -9,7 +9,7 @@ function Home(){
               </div>
               <div className="name">
                 <div className='title'>Amit om kashyap</div>
-                <div> Full-stack web developer with knee interest in machine learning and artificial intelligency </div>
+                <div className='description'> Full-stack web developer with knee interest in machine learning and artificial intelligency </div>
               </div>
            
           
