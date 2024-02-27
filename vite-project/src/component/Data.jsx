@@ -1,36 +1,30 @@
-import appimage from "../images/profile_pic.jpg"
+import chess from "../images/CHESS_HERO.jpg"
+import ecommerce from "../images/ecommerce.webp"
+import food from "../images/Food-delivery-11.jpg"
 export const AllProjects = [
     {
-        title: "React Reserve",
+        title: "E-Commerce Website",
         subtitle: "MERN Stack",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: appimage,
+        image: ecommerce,
         link: "https://reactbootcamp.com",
       },
       {
-        title: "React Tracks",
+        title: "Food Delivery",
         subtitle: "React and Python",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: appimage,
+        image: food,
         link: "https://reedbarger.com",
       },
       {
-        title: "DevChat",
+        title: "Chess game",
         subtitle: "React and Firebase",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: appimage,
+        image: chess,
         link: "https://jsbootcamp.com",
-      },
-      {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
-        description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: appimage,
-        link: "https://pythonbootcamp.com",
       },
 ]
 
