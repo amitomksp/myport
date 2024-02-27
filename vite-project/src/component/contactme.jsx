@@ -1,5 +1,6 @@
 import React from 'react';
-import cv from "./mycv.jpg"
+import resume from "../images/mycv.jpg";
+import "./css/contactme.css"
 const ContactMeSection = () => {
   return (
     <div className="contact-me-section">
@@ -18,11 +19,16 @@ const ContactMeSection = () => {
             <label htmlFor="phone">Phone:</label>
             <input type="tel" id="phone" name="phone" />
           </div>
+          <div className="form-group">
+            <label htmlFor="message">Enter your message</label>
+            <input type="text" id="message" name="message" />
+          </div>
           <button type="submit">Submit</button>
         </form>
+        
       </div>
       <div className="resume-image">
-        <img src="{cv}" alt="My Resume" />
+        <img src={resume} alt="My Resume" />
       </div>
     </div>
   );
