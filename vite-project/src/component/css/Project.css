@@ -4,7 +4,7 @@
     text-align: center;
     padding: 50px 0;
     color: black;
-    background-color: #f9f7f7; /* Cream color */
+    background-image: url('../sky1.jpg');
   }
   
   .projectContainer {
@@ -47,6 +47,14 @@
     height: auto;
     object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
   }
+  .section {
+    background-image: url('../Background 8.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
   
   
   @media (max-width: 768px) {
