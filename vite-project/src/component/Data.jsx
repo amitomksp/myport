@@ -3,7 +3,7 @@ import ecommerce from "../images/ecommerce.webp"
 import food from "../images/Food-delivery-11.jpg"
 export const AllProjects = [
     {
-        title: "E-Commerce Website",
+        title: "E-Commerce ",
         subtitle: "MERN Stack",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
