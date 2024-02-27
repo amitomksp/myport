@@ -35,13 +35,17 @@
   .resume-image {
     flex: 1;
     padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
   }
   
   .resume-image img {
     width: 100%;
     height: auto;
   }
-  
+  .resume-image h2{
+    text-align: center;
+  }
   @media (max-width: 768px) {
     .contact-me-section {
       flex-direction: column;
@@ -53,4 +57,17 @@
       margin-bottom: 20px;
     }
   }
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Text color */
+    border: none;
+    margin-left: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
   
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Hover color */
+  }

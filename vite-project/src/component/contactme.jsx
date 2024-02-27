@@ -25,9 +25,10 @@ const ContactMeSection = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
-        
+
       </div>
       <div className="resume-image">
+      <h2>My Resume</h2>
         <img src={resume} alt="My Resume" />
       </div>
     </div>
