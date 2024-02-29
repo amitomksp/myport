@@ -38,7 +38,7 @@
         margin-left: 5%;
     }
     .homeright{
-        margin: 50px;
+        margin: 80px;
     font-size: 1.5rem;
         flex: 1;
         padding: 20px;
@@ -59,6 +59,9 @@
     font-family: "Poppins", sans-serif;
     margin-left: 50px;
 }
-.homeright span{
-  color: #27AE60;
+.homeright h1 span{
+  color: #931793;
 }
+ .homeright strong {
+    color: #27AE60 !important;
+  }

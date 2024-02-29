@@ -7,7 +7,7 @@ const AnimatedText = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const text = "hi i am amit kumar";
+    const text = "A web Developer and DevOps engineer";
     const wordArray = text.split(" ");
 
     const interval = setInterval(() => {
@@ -17,7 +17,7 @@ const AnimatedText = () => {
       } else {
         clearInterval(interval);
       }
-    }, 500);
+    }, 600);
 
     return () => clearInterval(interval);
   }, [index]);
@@ -42,12 +42,10 @@ function Home() {
         </div>
       </div>
       <div className="homeright">
-        <h1 className='name'>" Hello!, i'm "
-          <span>Amit Kumar</span>
-          " A web Developer "
-          <AnimatedText />
+        <h1 className='name'>" Hello!, i'm " <strong className='green'>Amit Kumar"</strong>
+          <span className='animate'><AnimatedText /></span>
+          
         </h1>
-        {/* Add additional content here */}
       </div>
     </div>
   )
