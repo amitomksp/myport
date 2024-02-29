@@ -4,7 +4,6 @@
     text-align: center;
     padding: 50px 0;
     color: black;
-    background-image: url('../sky1.jpg');
   }
   
   .projectContainer {
@@ -48,7 +47,6 @@
     object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
   }
   .section {
-    background-image: url('../Background 8.jpg');
     background-size: cover;
     background-position: center;
     width: 100vw;

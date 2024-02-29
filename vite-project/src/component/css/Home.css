@@ -13,12 +13,13 @@
     margin-right: 100px;
     }
     .profile-circle {
-        width: 400px;
-        height: 250px;
+        width:100vh;
+        height: 100vh;
         border-radius: 2%; /* Makes the container circular */
         overflow: hidden; /* Hides overflow content outside of the circle */
         margin-left: 5%;
         margin-top: 0%;
+        object-fit: cover; 
     
     }
     .profile-circle img {
@@ -41,14 +42,23 @@
     font-size: 1.5rem;
         flex: 1;
         padding: 20px;
-        color: #c5c4ca;
     }
 
 .background-image {
-    background-image: url('../sky1.jpg');
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
     z-index: 100;
+}
+.homeright .name{
+    font-size: 3rem !important;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+}
+.homeright span{
+  color: #27AE60;
 }
