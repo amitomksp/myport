@@ -11,10 +11,10 @@ function Projects() {
   xmlns="http://www.w3.org/2000/svg"
   fill="none"
   viewBox="0 0 24 24"
-  strokeWidth={1.5}
+  strokeWidth={2.5}
   stroke="currentColor"
-  width="48" 
-  height="48" 
+  width="88" 
+  height="88" 
 >
   <path
     strokeLinecap="round"
@@ -22,19 +22,15 @@ function Projects() {
     d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
   />
 </svg>
-
-
-
-
  </div>
        <h1 className='heading'>Apps I've Built</h1>
-       <div className='about-it'>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nobis dicta neque possimus quibusdam dolores impedit voluptate, nemo, iste mollitia obcaecati, non quidem? elit. Ipsa minima rerum minus!</div>
+       <div className='about-it'>"Exploring various domains of software development, I've embarked on a journey filled with creativity, problem-solving, and continuous learning. Each project showcases not only my technical skills but also my passion for innovation and attention to detail. From crafting intuitive user interfaces to architecting robust backend systems, I strive to deliver solutions that exceed expectations."</div>
     
         <div className='myallproject'>
           {AllProjects.map((allProj)=>(
             
            <a className='imagelink'  href={allProj.link} key={allProj.image}>
-            <h2>Title: {allProj.title}</h2>
+            <h2 className='project-title'>Title: {allProj.title}</h2>
            <div className='projimage'>
              <img src={allProj.image} alt=""/>
            </div>
