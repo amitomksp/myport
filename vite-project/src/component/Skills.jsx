@@ -12,8 +12,8 @@ const Skills = () => {
             viewBox="0 0 24 24"
             fill="currentColor"
             className="w-6 h-6"
-            width="48"
-            height="48"
+            width="98"
+            height="98"
           >
             <path d="M16.5 7.5h-9v9h9v-9Z" />
             <path
@@ -24,14 +24,10 @@ const Skills = () => {
           </svg>
         </div>
         <div className="skillsheading">
-          <h1>Skills & Technologies</h1>
+          <h1>Skills And Technologies</h1>
         </div>
         <div className="skillsabout">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam soluta
-          cupiditate, aut distinctio alias dolor earum molestiae modi sint
-          quibusdam deleniti veniam magni accusantium vitae, expedita aperiam
-          perferendis harum aspernatur, dolores inventore recusandae
-          perspiciatis.
+        In addition to my core skills, I am proficient in a variety of technologies and tools commonly used in the industry. I have extensive experience working with languages such as JavaScript, react, and Java, enabling me to develop robust and efficient solutions for a wide range of projects. 
         </div>
 
         <div className="allskill">
