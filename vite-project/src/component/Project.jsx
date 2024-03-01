@@ -30,7 +30,7 @@ function Projects() {
           {AllProjects.map((allProj)=>(
             
            <a className='imagelink'  href={allProj.link} key={allProj.image}>
-            <h2 className='project-title'>Title: {allProj.title}</h2>
+            {/* <h2 className='project-title'>Title: {allProj.title}</h2> */}
            <div className='projimage'>
              <img src={allProj.image} alt=""/>
            </div>
