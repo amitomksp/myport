@@ -62,6 +62,36 @@
 .homeright h1 span{
   color: #931793;
 }
+.btn-con{
+    margin-left: 50%;
+}
  .homeright strong {
     color: #27AE60 !important;
   }
+  .main-btn {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #27AE60; /* Border color */
+    border-radius: 30px; /* Border radius */
+    text-decoration: none;
+    color: #fff; /* Text color */
+  }
+  
+  .btn-text {
+    margin-right: 20px; /* Adjust margin between text and icon */
+  }
+  
+  .btn-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust right position to align icon */
+    transform: translateY(-50%);
+  }
+  
+  /* Optional: Adjust icon size */
+  .btn-icon svg {
+    width: 20px; /* Adjust icon width */
+    height: 20px; /* Adjust icon height */
+  }
+  
