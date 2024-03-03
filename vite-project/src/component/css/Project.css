@@ -5,6 +5,26 @@
     padding: 50px 0;
     color: #931793;
   }
+  .view-all{
+    margin-left: 690px;
+    padding: 5px;
+    font-size: 0.9rem;padding: 0.6rem,2rem;
+    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    border: 2px solid black;
+    color: #fff;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
+
+.view-all :hover{
+    color:#a993fe ;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+   
+}
   
   .projectContainer {
     max-width: 800px;
@@ -18,13 +38,15 @@
   }
   
   .about-it {
-    margin: 30px 0;
+    margin: 20px 0;
     color: #d7c8d5;
     font-size: 1.3rem;
   }
   .project-title{
-      color: #d7c8d5;
-      font-size: 2rem;
+      color: #c8c5c3;
+      font-size: 1rem;
+      font-weight: 600;
+      font-family:cursive;
   }
   
   .myallproject {
@@ -32,21 +54,17 @@
     width: 800px;
     height: 500px;
     flex-wrap: wrap;
-    border: 2px solid rebeccapurple;
   }
   
   .imagelink {
     text-decoration: none;
     color: inherit;
-    border: 2px solid green;
+    object-fit: cover;
+    border: 3px solid black;
     margin: 20px;
     width: 220px; 
-    height: 200px;
   }
   
-  .imagelink:hover h2 {
-    color: #931793;
-  }
   .projimage {
     height: 200px; 
     overflow: hidden;
@@ -63,9 +81,6 @@
     width: 100vw;
     height: 100vh;
     z-index: 100;
-}
-.imagelink :hover{
-  background-color: #fff;
 }
 
   
