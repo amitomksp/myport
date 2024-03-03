@@ -1,9 +1,18 @@
 .contact-container{
   text-align: center;
+  margin-top: -20px;
 }
 .main-title{
   font-size: 3rem;
 }
 .main-title span{
   color: #27AE60;
+}
+.below-contact{
+  font-size: 2rem;
+  font-family: cursive;
+  color: bisque;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -50px;
 }

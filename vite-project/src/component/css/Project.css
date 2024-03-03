@@ -10,8 +10,8 @@
     padding: 5px;
     font-size: 0.9rem;padding: 0.6rem,2rem;
     background: linear-gradient(90deg,#000000 0%,#545252 100%);
-    border: 2px solid black;
-    color: #fff;
+    border: 1px solid rgb(205, 196, 196);
+    color: rgb(205, 196, 196);
     outline: 1.5px solid transparent;
     border-radius: 0.2rem;
     cursor: pointer;
@@ -33,14 +33,19 @@
   }
   
   .heading {
-    color: #931793;
+    color: #fff;
     font-size: 3rem;
+  }
+  .heading span {
+    color: #27AE60;
   }
   
   .about-it {
     margin: 20px 0;
-    color: #d7c8d5;
-    font-size: 1.3rem;
+    color: rgb(232, 216, 196);
+    font-family: cursive;
+    font-size: 1.4rem;
+    margin-top: -30px;
   }
   .project-title{
       color: #c8c5c3;
@@ -62,6 +67,7 @@
     object-fit: cover;
     border: 3px solid black;
     margin: 20px;
+    margin-top: 0px;
     width: 220px; 
     background: linear-gradient(90deg,#000000 0%,#545252 100%);
   }

@@ -24,7 +24,7 @@ const Skills = () => {
           </svg>
         </div>
         <div className="skillsheading">
-          <h1>Skills And Technologies</h1>
+          <h1>Skills And <span> Technologies</span></h1>
         </div>
         <div className="skillsabout">
         In addition to my core skills, I am proficient in a variety of technologies and tools commonly used in the industry. I have extensive experience working with languages such as JavaScript, react, and Java, enabling me to develop robust and efficient solutions for a wide range of projects. 

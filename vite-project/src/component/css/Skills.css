@@ -13,7 +13,10 @@ svg{
 }
 .skillsheading{
     font-size: 2rem;
-    color: #931793;
+    color: #fdf8fd;
+}
+.skillsheading span{
+    color: #27AE60;
 }
 .skillsabout{
     font-size: 1.2rem;
