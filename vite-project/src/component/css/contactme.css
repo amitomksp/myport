@@ -47,15 +47,41 @@
   display: flex;
   align-items: center;
   margin-bottom: 8px;
+  margin-left: 200px !important;
 }
 
 .contact-item svg {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  color: white;
 }
 
 .contact-item span {
-  font-size: 16px;
+  font-size: 1.3rem;
 }
-
+ .contact-form input,.contact-form textarea{
+  border-radius: 30px;
+  margin: 20px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color:rgb(56, 55, 53);
+  width: 100%;
+  color: black;
+  resize: none;
+}
+.submit-btn{
+  display: flex;
+  margin-left: 25px;
+  font-size: 1rem;
+  text-align: center;
+}
+.submit-btn :hover{
+  color: aquamarine;
+  background-color: rgb(56, 55, 53);
+  border: 2px solid #27AE60;
+}
