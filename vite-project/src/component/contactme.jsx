@@ -3,7 +3,6 @@ import resume from "../images/mycv.jpg";
 import "./css/contactme.css"
 const ContactMeSection = () => {
   return (
-    <section class="container contact" id="contact">
     <div class="contact-container">
         <div class="main-title">
             <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
@@ -71,7 +70,7 @@ const ContactMeSection = () => {
                             <i class="fab fa-twitter"></i>
                         </a>
                         <a href="#" target="_blank">
-                            <i class="fab fa-github"></i>
+                        {/* //github icon */}
                         </a>
                         <a href="#" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
@@ -106,7 +105,6 @@ const ContactMeSection = () => {
             </div>
         </div>
     </div>
-</section>
   );
 }
 
