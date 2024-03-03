@@ -16,3 +16,46 @@
   margin-right: 50px;
   margin-top: -50px;
 }
+.contact{
+  display: flex;
+  max-width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+ .contact ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.contact ul li{
+  margin: 10px;
+}
+.contact {
+  display: flex;
+}
+
+.left-contact,
+.right-contact {
+  flex: 1;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.contact-item svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.contact-item span {
+  font-size: 16px;
+}
+
