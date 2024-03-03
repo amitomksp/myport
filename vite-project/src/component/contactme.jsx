@@ -5,14 +5,13 @@ const ContactMeSection = () => {
   return (
     <div class="contact-container">
         <div class="main-title">
-            <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+            <h2> <span>Contact</span> ME</h2>
         </div>
         <div class="contact-content-con">
             <div class="left-contact">
                 <h4>Contact me here</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    In, laborum numquam? Quam excepturi perspiciatis quas quasi.
+                "Let's connect and discuss your next project. Drop me a message, and I'll get back to you as soon as possible."
                 </p>
                 <div class="contact-info">
                     <div class="contact-item">
@@ -73,9 +72,7 @@ const ContactMeSection = () => {
                         {/* //github icon */}
                         </a>
                         <a href="#" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-  <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clip-rule="evenodd" />
-</svg>
+                        {/* letcode link */}
 
                         </a>
                     </div>
