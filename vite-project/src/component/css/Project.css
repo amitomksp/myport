@@ -9,7 +9,7 @@
     margin-left: 690px;
     padding: 5px;
     font-size: 0.9rem;padding: 0.6rem,2rem;
-    background: linear-gradient(90deg,#a993fe 0%,#7e61e7 100%);
+    background: linear-gradient(90deg,#000000 0%,#545252 100%);
     border: 2px solid black;
     color: #fff;
     outline: 1.5px solid transparent;
@@ -20,7 +20,7 @@
 }
 
 .view-all :hover{
-    color:#a993fe ;
+    color:#372191 ;
     background: #000;
     outline: 1.5px solid #a993fe;
    
@@ -63,6 +63,7 @@
     border: 3px solid black;
     margin: 20px;
     width: 220px; 
+    background: linear-gradient(90deg,#000000 0%,#545252 100%);
   }
   
   .projimage {
