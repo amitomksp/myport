@@ -58,26 +58,7 @@ const ContactMeSection = () => {
         </ul>
     </div>
 </div>
-
-        <form action="" class="contact-form">
-                    <div class="input-control">
-                        <input type="text" required placeholder="YOUR NAME"></input>
-                    </div>
-                    <div class="input-control">
-                    <input type="email" required placeholder="YOUR EMAIL"></input>
-                    </div>
-                    <div class="input-control">
-                    <input type="text" required placeholder="ENTER SUBJECT"></input>
-                    </div>  
-                    <div class="input-control">
-                        <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                    </div>
-                    <div class="submit-btn">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">Submit</span>
-                        </a>
-                    </div>
-                </form>
+       
     </div>
   );
 }
