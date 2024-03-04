@@ -34,6 +34,22 @@ export const AllProjects = [
         image: chess,
         link: "https://jsbootcamp.com",
       },
+      {
+        title: "Chess game",
+        subtitle: "Frontend Application",
+        description:
+          "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
+        image: chess,
+        link: "https://jsbootcamp.com",
+      },
+      {
+        title: "Chess game",
+        subtitle: "Frontend Application",
+        description:
+          "Welcome to our online chess game, where strategy meets entertainment!. Immerse yourself in the timeless game of chess right from the comfort of your browser. ",
+        image: chess,
+        link: "https://jsbootcamp.com",
+      },
 ]
 
 
