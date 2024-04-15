@@ -78,6 +78,7 @@
     text-decoration: none;
     background-color: #191d2b;
     color: #fff; /* Text color */
+    cursor: pointer;
   }
   
   .btn-text {
